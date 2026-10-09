@@ -1,0 +1,33 @@
+{
+  "name": "whatsapp_api_server",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "install-browser": "npx puppeteer browsers install chrome",
+    "postinstall": "node -e \"require('puppeteer').executablePath().then((p)=>console.log('Puppeteer browser:',p)).catch((e)=>console.error(e.message))\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^7.0.0-rc14",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.6",
+    "dotenv": "^16.6.1",
+    "express": "^5.2.1",
+    "google-auth-library": "^11.1.0",
+    "jsonwebtoken": "^9.0.3",
+    "mime": "^3.0.0",
+    "msnodesqlv8": "^5.5.0",
+    "mssql": "^12.7.2",
+    "node-fetch": "^2.7.0",
+    "pino": "^10.3.1",
+    "puppeteer": "^25.2.0",
+    "qrcode": "^1.5.4",
+    "qrcode-terminal": "^0.12.0"
+  }
+}
+  

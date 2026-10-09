@@ -1,0 +1,17 @@
+node_modules/
+.env
+.env.*
+
+backend/.baileys_auth/
+backend/.puppeteer_cache/
+backend/.chrome-path
+backend/tmp/
+backend/uploads/
+backend/data/users.json
+
+frontend/build/
+frontend/whatsapp_api.zip
+
+*.log
+.DS_Store
+Thumbs.db

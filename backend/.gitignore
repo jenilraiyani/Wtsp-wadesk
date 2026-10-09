@@ -1,0 +1,9 @@
+node_modules
+.env
+data/users.json
+.wwebjs_auth
+.wwebjs_cache
+.puppeteer_cache
+tmp
+uploads
+.chrome-path
